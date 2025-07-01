@@ -1,6 +1,9 @@
-Aqui está um exemplo de um arquivo `README.md` para o seu jogo:
+# Opções de atualização:
+Para efetuar atualização da versão do Node no frontend deve-se navegar até a pasta #frontend na raiz do projeto e acessar o arquivo dockerfile, lá dentro deve-se alterar a versão 20 na linha 1 para a versão desejada.
+Para efetuar atualização da versão do Python deve-se acessar o dockerfile na raiz do projeto e alterar da versão 3.12 slim para a versão desejada.
 
----
+# Escolhas de Design:
+
 
 # Jogo de Adivinhação com Flask
 
