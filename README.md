@@ -1,10 +1,22 @@
 # Opções de atualização:
 Para efetuar atualização da versão do Node no frontend deve-se navegar até a pasta #frontend na raiz do projeto e acessar o arquivo dockerfile, lá dentro deve-se alterar a versão 20 na linha 1 para a versão desejada.
+
 Para efetuar atualização da versão do Python deve-se acessar o dockerfile na raiz do projeto e alterar da versão 3.12 slim para a versão desejada.
 
-# Escolhas de Design:
+# Para executar o jogo deve-se executar os seguintes comandos no terminal:
 
+  docker-compose build
+  
+# depois 
 
+  docker-compose up
+  
+#Abrir o navegador e acessar o endereço:
+
+  http://localhost:8080/
+  _______________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+  
 # Jogo de Adivinhação com Flask
 
 Este é um simples jogo de adivinhação desenvolvido utilizando o framework Flask. O jogador deve adivinhar uma senha criada aleatoriamente, e o sistema fornecerá feedback sobre o número de letras corretas e suas respectivas posições.
