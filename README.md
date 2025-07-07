@@ -7,7 +7,6 @@ Para efetuar atualização da versão do Python deve-se acessar o dockerfile na 
 
   docker-compose build
   
-# depois 
 
   docker-compose up
   
